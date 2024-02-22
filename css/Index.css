@@ -2,8 +2,6 @@
 #main
 {
 display: flex;
-flex-direction: row;
-flex-wrap: wrap;
 height: 100%;
 width: 100%;
 }
@@ -13,8 +11,20 @@ width: 100%;
     background-color: rgba(224,234,254,255);
     width: 20%;
     margin-left: 2%;
+    padding-right: 2%;
+
+}
+#content{
+    margin-right: 2%;
+    padding-left: 2%;
 }
 #sidebar div{
     display: grid;
     grid-template-columns: 1fr 5fr
+}
+.section-blue{
+    color : cornflowerblue;
+}
+.section-date-grey{
+    color: grey;
 }
