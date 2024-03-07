@@ -1,4 +1,7 @@
 
+body{
+    background-color: whitesmoke;
+}
 #main
 {
 display: flex;
@@ -9,22 +12,35 @@ width: 100%;
 #sidebar
 {
     background-color: rgba(224,234,254,255);
-    width: 20%;
-    margin-left: 2%;
-    padding-right: 2%;
+    width: 30%;
+}
+#aside-content{
+    padding-left: 20px;
+    padding-right: 40px;
+}
 
+#sidebar img{
+    padding: 0;
+    margin: 0;
+    width: 300px;
 }
 #content{
-    margin-right: 2%;
-    padding-left: 2%;
+    background-color: white;
+    padding-left: 100px;
 }
-#sidebar div{
-    display: grid;
-    grid-template-columns: 1fr 5fr
+#contacts{
+    padding-bottom: 40px;
 }
 .section-blue{
     color : cornflowerblue;
 }
 .section-date-grey{
     color: grey;
+}
+
+#name,
+#projects,
+#work{
+    padding-right: 200px;
+    padding-bottom: 40px;
 }
